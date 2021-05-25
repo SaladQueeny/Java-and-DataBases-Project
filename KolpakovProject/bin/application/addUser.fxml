@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.AddUserController">
+   <children>
+      <Label layoutX="96.0" layoutY="64.0" text="Administration menu. Add employee">
+         <font>
+            <Font size="50.0" />
+         </font>
+      </Label>
+      <Button fx:id="Back_button" defaultButton="true" layoutX="74.0" layoutY="507.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="160.0" text="Back ">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <TextField fx:id="ID_field" layoutX="56.0" layoutY="175.0" prefHeight="40.0" prefWidth="266.0" promptText="ID">
+         <font>
+            <Font name="Times New Roman" size="20.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="firstName_field" layoutX="368.0" layoutY="175.0" prefHeight="40.0" prefWidth="266.0" promptText="First name">
+         <font>
+            <Font name="Times New Roman" size="20.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="lastName_field" layoutX="691.0" layoutY="175.0" prefHeight="40.0" prefWidth="266.0" promptText="Last name">
+         <font>
+            <Font name="Times New Roman" size="20.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="email_field" layoutX="56.0" layoutY="260.0" prefHeight="40.0" prefWidth="266.0" promptText="E-mail">
+         <font>
+            <Font name="Times New Roman" size="20.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="telephone_field" layoutX="368.0" layoutY="260.0" prefHeight="40.0" prefWidth="266.0" promptText="Telephone number">
+         <font>
+            <Font name="Times New Roman" size="20.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="passportID_filed" layoutX="691.0" layoutY="260.0" prefHeight="40.0" prefWidth="266.0" promptText="PassportID">
+         <font>
+            <Font name="Times New Roman" size="20.0" />
+         </font>
+      </TextField>
+      <Button fx:id="addUser_button" defaultButton="true" layoutX="420.0" layoutY="416.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="160.0" text="Add">
+         <font>
+            <Font name="Times New Roman" size="20.0" />
+         </font>
+      </Button>
+      <TextField fx:id="securityLevel_field" layoutX="368.0" layoutY="337.0" prefHeight="40.0" prefWidth="266.0" promptText="Security level">
+         <font>
+            <Font name="Times New Roman" size="20.0" />
+         </font>
+      </TextField>
+      <Text fx:id="added_text" layoutX="634.0" layoutY="442.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Employee sucsessfully added" visible="false">
+         <font>
+            <Font name="Times New Roman" size="20.0" />
+         </font>
+      </Text>
+      <Text fx:id="not_added_text" layoutX="203.0" layoutY="443.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Employee not added" visible="false">
+         <font>
+            <Font name="Times New Roman" size="20.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
