@@ -1,3 +1,4 @@
+# How to run
 1. Install MySQL 
 2. Import "BAZA_for_mysql.sql"
 3. Import mysql-connector-java.jar in modulepath
