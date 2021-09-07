@@ -1,3 +1,7 @@
+# Access control system application
+
+Javafx project with a database that allows you to add, find, and edit information about access control
+
 # How to run
 1. Install MySQL and Eclipse 
 2. Import "BAZA_for_mysql.sql"
