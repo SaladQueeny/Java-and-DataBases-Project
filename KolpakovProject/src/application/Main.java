@@ -8,17 +8,17 @@ import javafx.scene.Scene;
 import javafx.scene.image.Image;
 import javafx.scene.layout.AnchorPane;
 import javafx.fxml.FXMLLoader;
-//Колпаков Егор
+//ГЉГ®Г«ГЇГ ГЄГ®Гў Г…ГЈГ®Г°
 
 public class Main extends Application {
 	@Override
 	public void start(Stage primaryStage) {
-		try {//активирование окна
-			AnchorPane root = (AnchorPane)FXMLLoader.load(getClass().getResource("addUser.fxml"));
+		try {//Г ГЄГІГЁГўГЁГ°Г®ГўГ Г­ГЁГҐ Г®ГЄГ­Г 
+			AnchorPane root = (AnchorPane)FXMLLoader.load(getClass().getResource("StartWindow.fxml"));
 			Scene scene = new Scene(root,1000,600);
 			scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
-			primaryStage.getIcons().add(new Image("application/MainIcon.png"));//Изменение иконки приложения
-			primaryStage.setTitle("Access control system");//изменение названия приложения
+			primaryStage.getIcons().add(new Image("application/MainIcon.png"));//Г€Г§Г¬ГҐГ­ГҐГ­ГЁГҐ ГЁГЄГ®Г­ГЄГЁ ГЇГ°ГЁГ«Г®Г¦ГҐГ­ГЁГї
+			primaryStage.setTitle("Access control system");//ГЁГ§Г¬ГҐГ­ГҐГ­ГЁГҐ Г­Г Г§ГўГ Г­ГЁГї ГЇГ°ГЁГ«Г®Г¦ГҐГ­ГЁГї
 			primaryStage.setScene(scene);
 			primaryStage.show();
 		} catch(Exception e) {
@@ -27,6 +27,6 @@ public class Main extends Application {
 	}
 	
 	public static void main(String[] args) {
-		launch(args);//запуск приложения
+		launch(args);//Г§Г ГЇГіГ±ГЄ ГЇГ°ГЁГ«Г®Г¦ГҐГ­ГЁГї
 	}
 }
